@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<script type="text/javascript" src="~/lib/charting_library.min.js"></script>
+<script type="text/javascript" src="~/lib/datafeed.js"></script>
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+
+
+<!-- TradingView Widget BEGIN -->
+<div class="tv_chart_container" style=" height:900px; width:100%;  position:center">
+    <div id="tradingview_99b08" style="height:900px; width:100%;"></div>
+</div>
+<!-- TradingView Widget END -->
+
+<div class="row">
+    <script type="text/javascript">
+        TradingView.onready(function () {
+            var widget = window.tvWidget = new TradingView.widget({
+                fullscreen: true,
+                symbol: 'MSFT',
+                interval: 'D',
+                container_id: "tv_chart_container",
+                datafeed: new Datafeeds.UDFCompatibleDatafeed("http://localhost:34436/Home/Data"),            
+            });
+        });   
+
+    </script>
+</div>
