@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradingView", "WebApplication1\TradingView.csproj", "{43FD73EF-6C74-4AE2-9EDC-9D32DD351C4C}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database1", "..\..\..\Database1\Database1.sqlproj", "{ECEC0F97-C77C-4FC6-BC05-D57F0DA855FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{43FD73EF-6C74-4AE2-9EDC-9D32DD351C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43FD73EF-6C74-4AE2-9EDC-9D32DD351C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43FD73EF-6C74-4AE2-9EDC-9D32DD351C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECEC0F97-C77C-4FC6-BC05-D57F0DA855FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECEC0F97-C77C-4FC6-BC05-D57F0DA855FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECEC0F97-C77C-4FC6-BC05-D57F0DA855FE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ECEC0F97-C77C-4FC6-BC05-D57F0DA855FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECEC0F97-C77C-4FC6-BC05-D57F0DA855FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECEC0F97-C77C-4FC6-BC05-D57F0DA855FE}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
