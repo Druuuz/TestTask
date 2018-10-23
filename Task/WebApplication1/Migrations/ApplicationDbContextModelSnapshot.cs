@@ -24,19 +24,19 @@ namespace WebApplication1.Migrations
                 {
                     b.Property<int>("id");
 
-                    b.Property<int>("close");
+                    b.Property<float>("close");
 
                     b.Property<DateTime>("data");
 
-                    b.Property<int>("hight");
+                    b.Property<float>("hight");
 
-                    b.Property<int>("low");
+                    b.Property<float>("low");
 
-                    b.Property<int>("open");
+                    b.Property<float>("open");
 
                     b.Property<int>("symbol_id");
 
-                    b.Property<int>("volume");
+                    b.Property<float>("volume");
 
                     b.HasKey("id");
 

@@ -10,11 +10,11 @@ namespace WebApplication1.Models
         public int id { get; set; }
         public int symbol_id { get; set; }
         public DateTime data { get; set; }
-        public int open { get; set; }
-        public int hight { get; set; }
-        public int low { get; set; }
-        public int volume { get; set; }
-        public int close { get; set; }
+        public float open { get; set; }
+        public float hight { get; set; }
+        public float low { get; set; }
+        public float volume { get; set; }
+        public float close { get; set; }
         public Symbol symbol { get; set; }
     }
 }
